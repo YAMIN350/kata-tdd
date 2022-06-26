@@ -1,0 +1,21 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "Kata d'une variante du célèbre FizzBuzz en TDD",
+  "main": "fizzbuzz.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "GHERBI YAMIN",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "vitest": "^0.16.0"
+  }
+}
